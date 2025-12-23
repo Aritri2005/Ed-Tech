@@ -79,7 +79,7 @@ const Home = () => {
           className="flex gap-10 px-20 min-w-max"
           initial={{ x: "100%" }}
           animate={{ x: "-50%" }}
-          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
         >
           {stats.concat(stats).map((stat, idx) => (
             <motion.div
